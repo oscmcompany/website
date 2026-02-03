@@ -19,36 +19,28 @@
             margin: 0;
         }
 
+        a {
+            color: #ffffff;
+        }
+
         .container {
             height: 100%;
             margin: auto;
             width: 34rem;
-            padding: 2rem 1rem 0rem;
+            padding: 3rem 1rem 0rem;
         }
 
-        .top>div {
-            display: inline-block;
+        .top {
+            padding-bottom: 2rem;
         }
 
         .logo {
             font-size: 3rem;
             font-weight: 700;
-            padding-bottom: 6rem;
-        }
-
-        a {
-            color: #ffffff;
+            padding-bottom: 4rem;
         }
 
         .middle {
-            font-size: 2rem;
-            font-weight: 700;
-            padding-bottom: 2rem;
-        }
-
-        .bottom {
-            font-size: 2rem;
-            font-weight: 700;
             padding-bottom: 2rem;
         }
 
@@ -56,6 +48,11 @@
             font-size: 3rem;
             font-weight: 400;
             align-content: center;
+            margin: 0;
+            padding-bottom: 2rem;
+        }
+
+        .bottom {
             padding-bottom: 2rem;
         }
 
@@ -64,12 +61,16 @@
             font-weight: 700;
             display: block;
             padding-bottom: 1rem;
-            margin: 0rem;
+            margin: 0;
         }
 
         @media screen and (max-width: 580px) {
             .container {
                 width: 100%;
+            }
+
+            .logo {
+                padding-bottom: 2rem;
             }
 
             .title {
